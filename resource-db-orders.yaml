@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: db-orders
+  description: Base de datos PostgreSQL de órdenes
+spec:
+  type: database
+  owner: equipo-dev
+  system: order-system
