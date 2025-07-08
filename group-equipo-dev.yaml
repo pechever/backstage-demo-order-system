@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: equipo-dev
+spec:
+  type: team
+  profile:
+    displayName: Equipo de Desarrollo
+    email: dev@empresa.com
